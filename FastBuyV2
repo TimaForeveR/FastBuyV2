@@ -1,8 +1,8 @@
 game:GetService("StarterGui"):SetCore("SendNotification", { 
- Title = "MyLeTaKy";
+ Title = "Script is worked!";
  Text = "t.me/myletakykey";
  Icon = "rbxthumb://type=Asset&id=14435031323&w=150&h=150"})
-Duration = 20;
+Duration = 5;
 for i,v in pairs(game:GetDescendants()) do
 if v:IsA("RemoteEvent") then
 v:FireServer(id)
