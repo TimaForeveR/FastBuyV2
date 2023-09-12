@@ -22,4 +22,4 @@ local args = {
 
 game:GetService("ReplicatedStorage"):WaitForChild("Prompt"):FireServer(unpack(args))
 
-game:GetService("ReplicatedStorage").FirePurchse:FireServer(id)
+game:GetService("ReplicatedStorage").FirePurchse:FireServer((id))
